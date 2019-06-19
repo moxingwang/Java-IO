@@ -35,3 +35,4 @@
 - [如何学习Java的NIO？](https://www.zhihu.com/question/29005375/answer/667616386)
 - [On Time RTOS-32 Documentation 文档](http://www.on-time.com/rtos-32-docs/rtip-32/reference-manual/simplified-networking-api/net-accept.htm)
 - [理解socket connect和accept的实现细节](http://xiaorui.cc/2016/05/04/%E7%90%86%E8%A7%A3socket-connect%E5%92%8Caccept%E7%9A%84%E5%AE%9E%E7%8E%B0%E7%BB%86%E8%8A%82/)
+- [网络通信基础重难点解析](https://blog.csdn.net/analogous_love)
