@@ -32,3 +32,4 @@
 - [操作系统IO模式整理](https://juejin.im/entry/5a72d7f36fb9a01ca8724e36)
 - [C++网络通信中write和read的为什么会阻塞](https://blog.csdn.net/bian_qing_quan11/article/details/77853701)
 - [Unix/Linux中的read和write函数](https://www.cnblogs.com/xiehongfeng100/p/4619451.html)
+- [如何学习Java的NIO？](https://www.zhihu.com/question/29005375/answer/667616386)

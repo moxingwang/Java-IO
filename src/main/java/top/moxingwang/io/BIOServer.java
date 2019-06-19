@@ -14,6 +14,7 @@ public class BIOServer {
         ServerSocket serverSocket = new ServerSocket(8080);
         while (true) {
             try {
+                //基于PlainSocketImpl.c里面的for(;;)实现阻塞
                 Socket socket = serverSocket.accept();
 
                 int len;
