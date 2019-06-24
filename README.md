@@ -18,6 +18,11 @@
 # linux
 - 文件描述符
 
+# accept
+- jvm accept实现方式
+    - Linux for
+    - Linux accept
+
 # 操作系统IO操作
 
 # references
@@ -36,3 +41,6 @@
 - [理解socket connect和accept的实现细节](http://xiaorui.cc/2016/05/04/%E7%90%86%E8%A7%A3socket-connect%E5%92%8Caccept%E7%9A%84%E5%AE%9E%E7%8E%B0%E7%BB%86%E8%8A%82/)
 - [从操作系统内核看Java非阻塞IO事件检测](https://blog.csdn.net/wangyangzhizhou/article/details/52573310)
 - [Linux Socket编程（不限Linux）](https://www.cnblogs.com/skynet/archive/2010/12/12/1903949.html)
+- [socket API 实现（四）—— accept 函数](http://blog.guorongfei.com/2014/10/29/socket-accept/)
+- [浅谈Linux内存管理](https://zhuanlan.zhihu.com/p/67059173)
+- [【Linux 内核网络协议栈源码剖析】accept 函数剖析](https://blog.csdn.net/wenqian1991/article/details/46794647)
