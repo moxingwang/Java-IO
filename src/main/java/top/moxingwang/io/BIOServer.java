@@ -17,6 +17,7 @@ public class BIOServer {
                 //在unix基于PlainSocketImpl.c里面的for(;;)实现阻塞
                 //在windows平台又不同
                 Socket socket = serverSocket.accept();
+                System.out.println("建立连接成功");
 
                 int len;
                 byte[] data = new byte[1024];
