@@ -7,6 +7,8 @@
 
 
 # IO中断
+- 网卡中断
+
 
 
 # question
@@ -24,6 +26,33 @@
     - Linux accept
 
 # 操作系统IO操作
+
+# tcp/ip
+
+
+-非阻塞I/O有一个缺点
+    如果所有设备都一直没有数据到达，调用者需要反复查询做无用功，如果阻塞在那里，操作系统可以调度别的进程执行，就不会做无用功了。select(2) 函数可以阻塞地同时监视多个设备，还可以设定阻塞等待的超时时间，从而圆满地解决了这个问题。
+
+
+- 搞懂select,poll,epoll区别
+    - [聊聊IO多路复用之select、poll、epoll详解-区别](https://www.jianshu.com/p/dfd940e7fca2)
+    - [Linux下的I/O复用与epoll详解](https://www.cnblogs.com/lojunren/p/3856290.html)
+
+
+
+# 理解IO
+- 简明通信原理
+- 进程之间是如何通信的
+- TCP/IP
+- 操作系统架构
+- 网卡的工作方式
+- 网络编程
+- 文件描述符
+- Linux网络编程
+- select,poll,epoll
+- java NIO
+
+
 
 # references
 - [操作系统IO操作模式](https://blog.csdn.net/u012474535/article/details/80733118)
@@ -44,3 +73,6 @@
 - [socket API 实现（四）—— accept 函数](http://blog.guorongfei.com/2014/10/29/socket-accept/)
 - [浅谈Linux内存管理](https://zhuanlan.zhihu.com/p/67059173)
 - [【Linux 内核网络协议栈源码剖析】accept 函数剖析](https://blog.csdn.net/wenqian1991/article/details/46794647)
+- [linux阻塞和非阻塞原理](https://ezbcw.iteye.com/blog/2164778)
+- [12.Redis的事件驱动（IO多路复用）](https://blog.csdn.net/u014590757/article/details/79860766)
+- [Java IO多路复用技术详解](https://blog.csdn.net/weililansehudiefei/article/details/70885515)
