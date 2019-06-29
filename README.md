@@ -41,16 +41,17 @@
 
 
 # 理解IO
-- 简明通信原理
-- 进程之间是如何通信的
-- TCP/IP
-- 操作系统架构
-- 网卡的工作方式
-- 网络编程
-- 文件描述符
-- Linux网络编程
-- select,poll,epoll
-- java NIO
+    - 简明通信原理
+    - 进程之间是如何通信的
+    - TCP/IP
+    - 操作系统架构
+    - 操作系统中断
+    - 网卡的工作方式
+    - 网络编程
+    - 文件描述符
+    - Linux网络编程
+    - select,poll,epoll
+    - java NIO
 
 
 
@@ -76,3 +77,5 @@
 - [linux阻塞和非阻塞原理](https://ezbcw.iteye.com/blog/2164778)
 - [12.Redis的事件驱动（IO多路复用）](https://blog.csdn.net/u014590757/article/details/79860766)
 - [Java IO多路复用技术详解](https://blog.csdn.net/weililansehudiefei/article/details/70885515)
+- [系统间通讯方式之（Java NIO多路复用模式）（四）](https://blog.csdn.net/u010963948/article/details/78507255)
+- [Java编程的艺术-NIO的原理](https://www.bilibili.com/video/av55255759?from=search&seid=9541834285236327097)
