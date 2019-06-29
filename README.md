@@ -79,3 +79,4 @@
 - [Java IO多路复用技术详解](https://blog.csdn.net/weililansehudiefei/article/details/70885515)
 - [系统间通讯方式之（Java NIO多路复用模式）（四）](https://blog.csdn.net/u010963948/article/details/78507255)
 - [Java编程的艺术-NIO的原理](https://www.bilibili.com/video/av55255759?from=search&seid=9541834285236327097)
+- [Java架构之一线互联网公司面试必问之NIO【咕泡学院】](https://www.bilibili.com/video/av29590429?from=search&seid=9541834285236327097)

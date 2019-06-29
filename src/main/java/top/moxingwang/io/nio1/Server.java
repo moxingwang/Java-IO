@@ -12,13 +12,17 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Server {
-    //多路复用器
+    // 多路复用器
     private Selector selector;
 
     public static void main(String[] args) throws IOException {
+        List<String> aa = new ArrayList();
+
         new Server().init(9981).listen();
     }
 
