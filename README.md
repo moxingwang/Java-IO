@@ -1,3 +1,27 @@
+
+---简明Java IO---
+# 理解IO PPT思路
+    - 简明通信原理
+        - 网络通信架构图
+        - 集线器，交换机，路由器，猫（调制解调），无线AP
+        - wan,lan,vlan
+
+    - 进程之间是如何通信的
+    - TCP/IP
+    - 操作系统架构
+    - 操作系统中断
+    - 网卡的工作方式
+    - 网络编程
+    - 文件描述符
+    - Linux网络编程
+    - select,poll,epoll
+    - Java IO发展史
+    - java NIO
+
+
+
+
+
 # 进程之间是如何通信的
 - [常见的通信方式](https://www.cnblogs.com/LUO77/p/5816326.html)
 - [程序间通信的各种途径及解析](https://www.cnblogs.com/wskaihd/archive/2009/07/22/1528471.html)
@@ -29,29 +53,16 @@
 
 # tcp/ip
 
+# 理解 
+- Java NIO就是对IO使用的封装，实现内核函数的调用
 
--非阻塞I/O有一个缺点
+- 非阻塞I/O有一个缺点
     如果所有设备都一直没有数据到达，调用者需要反复查询做无用功，如果阻塞在那里，操作系统可以调度别的进程执行，就不会做无用功了。select(2) 函数可以阻塞地同时监视多个设备，还可以设定阻塞等待的超时时间，从而圆满地解决了这个问题。
 
 
 - 搞懂select,poll,epoll区别
     - [聊聊IO多路复用之select、poll、epoll详解-区别](https://www.jianshu.com/p/dfd940e7fca2)
     - [Linux下的I/O复用与epoll详解](https://www.cnblogs.com/lojunren/p/3856290.html)
-
-
-
-# 理解IO
-    - 简明通信原理
-    - 进程之间是如何通信的
-    - TCP/IP
-    - 操作系统架构
-    - 操作系统中断
-    - 网卡的工作方式
-    - 网络编程
-    - 文件描述符
-    - Linux网络编程
-    - select,poll,epoll
-    - java NIO
 
 
 
@@ -80,3 +91,6 @@
 - [系统间通讯方式之（Java NIO多路复用模式）（四）](https://blog.csdn.net/u010963948/article/details/78507255)
 - [Java编程的艺术-NIO的原理](https://www.bilibili.com/video/av55255759?from=search&seid=9541834285236327097)
 - [Java架构之一线互联网公司面试必问之NIO【咕泡学院】](https://www.bilibili.com/video/av29590429?from=search&seid=9541834285236327097)
+- [深入分析 Java I/O 的工作机制](https://www.ibm.com/developerworks/cn/java/j-lo-javaio/index.html)
+- [数据从网卡到应用的过程](https://chenyongjun.vip/articles/108)
+- [集线器，交换机，路由器的区别](https://www.bilibili.com/video/av34083775?from=search&seid=16031193203558461900)
