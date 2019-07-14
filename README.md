@@ -105,3 +105,5 @@
 - [深入分析 Java I/O 的工作机制](https://www.ibm.com/developerworks/cn/java/j-lo-javaio/index.html)
 - [数据从网卡到应用的过程](https://chenyongjun.vip/articles/108)
 - [集线器，交换机，路由器的区别](https://www.bilibili.com/video/av34083775?from=search&seid=16031193203558461900)
+- [计算机网络——OSI模型究竟忽悠了多少人](https://www.cnblogs.com/6DAN_HUST/archive/2012/03/24/2415148.html)
+- [TCP/IP与OSI之思想试比较 ](http://www.elias.cn/oldweb/bbs/viewtopicc54a.html?t=6)
