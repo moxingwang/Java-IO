@@ -107,3 +107,4 @@
 - [集线器，交换机，路由器的区别](https://www.bilibili.com/video/av34083775?from=search&seid=16031193203558461900)
 - [计算机网络——OSI模型究竟忽悠了多少人](https://www.cnblogs.com/6DAN_HUST/archive/2012/03/24/2415148.html)
 - [TCP/IP与OSI之思想试比较 ](http://www.elias.cn/oldweb/bbs/viewtopicc54a.html?t=6)
+- [BIO-NIO-AIO.md](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/BIO-NIO-AIO.md#13-%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
