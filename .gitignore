@@ -27,3 +27,7 @@ hs_err_pid*
 .classpath
 .project
 .vsc
+.idea
+.project
+.settings
+*.iml

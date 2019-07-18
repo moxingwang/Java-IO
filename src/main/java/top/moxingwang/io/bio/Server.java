@@ -37,10 +37,9 @@ public class Server {
                 {
                     OutputStream outputStream = socket.getOutputStream();
                     outputStream.write("Hello world".getBytes());
-                    socket.close();
                 }
 
-
+                socket.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
