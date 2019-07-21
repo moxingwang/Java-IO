@@ -128,3 +128,4 @@ socket如果不关闭的话，read之类的阻塞函数会一直等待它发送�
 - [计算机网络——OSI模型究竟忽悠了多少人](https://www.cnblogs.com/6DAN_HUST/archive/2012/03/24/2415148.html)
 - [TCP/IP与OSI之思想试比较 ](http://www.elias.cn/oldweb/bbs/viewtopicc54a.html?t=6)
 - [BIO-NIO-AIO.md](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/BIO-NIO-AIO.md#13-%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
+- [也说TCP/IP之计算机网络发展史（一）](https://blog.csdn.net/dengminghli/article/details/81491153)
